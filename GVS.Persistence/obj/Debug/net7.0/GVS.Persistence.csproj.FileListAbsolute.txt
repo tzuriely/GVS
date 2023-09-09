@@ -1,0 +1,17 @@
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.csproj.AssemblyReference.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.AssemblyInfoInputs.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.AssemblyInfo.cs
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\bin\Debug\net7.0\GVS.Persistence.deps.json
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\bin\Debug\net7.0\GVS.Persistence.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\bin\Debug\net7.0\GVS.Persistence.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\bin\Debug\net7.0\GVS.Domain.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\bin\Debug\net7.0\GVS.Domain.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.csproj.CopyComplete
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\refint\GVS.Persistence.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\ref\GVS.Persistence.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\bin\Debug\net7.0\GVS.Persistence.runtimeconfig.json
+C:\Users\tyamin\source\repos\GamesVideoSummary\GVS.Persistence\obj\Debug\net7.0\GVS.Persistence.genruntimeconfig.cache

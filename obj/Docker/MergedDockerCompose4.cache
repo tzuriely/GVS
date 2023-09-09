@@ -1,0 +1,55 @@
+name: dockercompose1522932418962889804
+services:
+  gvs.api:
+    build:
+      context: C:\Users\tyamin\source\repos\GamesVideoSummary
+      dockerfile: GVS.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: gvsapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\tyamin\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\tyamin\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  gvs.db:
+    container_name: shares-db
+    environment:
+      POSTGRES_DB: GamesVideoSummary
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\tyamin\source\repos\GamesVideoSummary\.containers\db
+      target: /var/lib/postgresql/data
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose1522932418962889804_default

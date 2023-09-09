@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GVS.Games.Api.props" />
+</Project>
