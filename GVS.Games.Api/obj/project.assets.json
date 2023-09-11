@@ -527,6 +527,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "GVS.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "GVS.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GVS.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GVS.Application.dll": {}
+        }
+      },
       "GVS.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1617,6 +1630,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "GVS.Application/1.0.0": {
+      "type": "project",
+      "path": "../../GVS.Application/GVS.Application.csproj",
+      "msbuildProject": "../../GVS.Application/GVS.Application.csproj"
+    },
     "GVS.Domain/1.0.0": {
       "type": "project",
       "path": "../GVS.Domain/GVS.Domain.csproj",
@@ -1630,7 +1648,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "GVS.Persistence >= 1.0.0",
+      "GVS.Application >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Microsoft.EntityFrameworkCore >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Abstractions >= 7.0.10",
@@ -1669,8 +1687,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\GVS.Persistence\\GVS.Persistence.csproj": {
-              "projectPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\GVS.Persistence\\GVS.Persistence.csproj"
+            "C:\\Users\\tyamin\\source\\repos\\GVS.Application\\GVS.Application.csproj": {
+              "projectPath": "C:\\Users\\tyamin\\source\\repos\\GVS.Application\\GVS.Application.csproj"
             }
           }
         }

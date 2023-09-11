@@ -1,3 +1,4 @@
+using GVS.Application.Queries.GamesByText;
 using GVS.Games.Api.Extensions;
 using GVS.Persistence;
 
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistence(builder.Configuration);
 
+builder.Services.AddScoped<GamesByTextHandler>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

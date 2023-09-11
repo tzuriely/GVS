@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using GVS.Domain.Repositories;
+using GVS.Persistence.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -19,6 +21,8 @@ namespace GVS.Persistence
                 options
                     .UseNpgsql(configuration.GetConnectionString("Database"), a => a.MigrationsAssembly("GVS.Persistence"))
                     .UseSnakeCaseNamingConvention());
+
+            services.AddScoped<IGamesRepository, GamesRepository>();
 
             return services;
         }

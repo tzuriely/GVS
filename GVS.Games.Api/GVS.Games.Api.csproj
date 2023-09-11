@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GVS.Persistence\GVS.Persistence.csproj" />
+    <ProjectReference Include="..\..\GVS.Application\GVS.Application.csproj" />
   </ItemGroup>
 
 </Project>
