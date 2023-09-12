@@ -1632,8 +1632,8 @@
     },
     "GVS.Application/1.0.0": {
       "type": "project",
-      "path": "../../GVS.Application/GVS.Application.csproj",
-      "msbuildProject": "../../GVS.Application/GVS.Application.csproj"
+      "path": "../GVS.Application/GVS.Application.csproj",
+      "msbuildProject": "../GVS.Application/GVS.Application.csproj"
     },
     "GVS.Domain/1.0.0": {
       "type": "project",
@@ -1687,8 +1687,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\tyamin\\source\\repos\\GVS.Application\\GVS.Application.csproj": {
-              "projectPath": "C:\\Users\\tyamin\\source\\repos\\GVS.Application\\GVS.Application.csproj"
+            "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\GVS.Application\\GVS.Application.csproj": {
+              "projectPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\GVS.Application\\GVS.Application.csproj"
             }
           }
         }

@@ -1,5 +1,4 @@
 ﻿using GVS.Application.Queries.GamesByText;
-using GVS.Domain.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GVS.Games.Api.Controllers

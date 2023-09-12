@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "jHyUFRuE2mxior/Xy017P0u9T9XlCCB+jRJ0QstVhdmqh2tugmdosU6z7csYwZhRAZxSCkpoJZ8aOc5I4C4zpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Shared\\DataMining.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tyamin\\.nuget\\packages\\cronos\\0.7.1\\cronos.0.7.1.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
