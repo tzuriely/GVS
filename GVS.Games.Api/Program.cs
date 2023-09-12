@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddPersistence(builder.Configuration);
 
 builder.Services.AddScoped<GamesByTextHandler>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
