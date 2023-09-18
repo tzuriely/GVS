@@ -28,6 +28,150 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\DataMining.Robots.csproj": {
+                "projectPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\DataMining.Robots.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.18.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\DataMining.Robots.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\DataMining.Robots.csproj",
+        "projectName": "DataMining.Robots",
+        "projectPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\DataMining.Robots.csproj",
+        "packagesPath": "C:\\Users\\tyamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://realmatch.pkgs.visualstudio.com/_packaging/Pandologic/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Shared\\DataMining.Shared.csproj": {
+                "projectPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Shared\\DataMining.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.53, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Shared\\DataMining.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Shared\\DataMining.Shared.csproj",
+        "projectName": "DataMining.Shared",
+        "projectPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Shared\\DataMining.Shared.csproj",
+        "packagesPath": "C:\\Users\\tyamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tyamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://realmatch.pkgs.visualstudio.com/_packaging/Pandologic/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -40,6 +184,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Cronos": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

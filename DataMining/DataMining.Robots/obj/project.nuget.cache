@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "du7s7i5d1Kekr2QU9TJjvRduUypNA7XPYs3u49CRfObDjNxM9b0zro2l09H9awmzEeJzZ2QWIfTVHUCAMjpVsg==",
+  "dgSpecHash": "ykU+YX9Sv0Zgd/MwqVqP/YkUvKTEwtPUZLLd7f87/pBxjMSes100kgFyQlW3eG/Quq6eMDVFSfnHJiEPDqBUhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\DataMining.Robots.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tyamin\\.nuget\\packages\\cronos\\0.7.1\\cronos.0.7.1.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\htmlagilitypack\\1.11.53\\htmlagilitypack.1.11.53.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",

@@ -3,7 +3,6 @@ using DataMining.Shared.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using System.Collections;
 
 namespace DataMining.Robots.Sport5
 {
@@ -28,7 +27,7 @@ namespace DataMining.Robots.Sport5
         {
             services.AddCronJob<Sport5Handler, Sport5GameModel>(c =>
             {
-                //c.CronExpression = 
+                c.CronExpression = $"{configuration.GetValue<string>("sport5Robot:CronExpression")}";
             });
 
             services.AddTransient<IHandleData<List<Sport5GameModel>>, Sport5DataHadler>();

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DataMining.App": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
