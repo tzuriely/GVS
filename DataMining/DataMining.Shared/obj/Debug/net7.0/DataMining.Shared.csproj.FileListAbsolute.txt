@@ -1,0 +1,12 @@
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\bin\Debug\net7.0\DataMining.Shared.deps.json
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\bin\Debug\net7.0\DataMining.Shared.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\bin\Debug\net7.0\DataMining.Shared.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\DataMining.Shared.csproj.AssemblyReference.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\DataMining.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\DataMining.Shared.AssemblyInfoInputs.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\DataMining.Shared.AssemblyInfo.cs
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\DataMining.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\DataMining.Shared.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\refint\DataMining.Shared.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\DataMining.Shared.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Shared\obj\Debug\net7.0\ref\DataMining.Shared.dll

@@ -66,7 +66,7 @@ namespace DataMining.Robots.Sport5
                     Content = games
                 };
             }
-            catch (Exception)
+            catch (Exception c)
             {
 
                 throw;

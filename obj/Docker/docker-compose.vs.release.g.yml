@@ -1,6 +1,24 @@
 version: '3.4'
 
 services:
+  datamining.app:
+    container_name: DataMining.App
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "DataMining.App"
+    volumes:
+      - C:\Users\tyamin\vsdbg\vs2017u5:/remote_debugger:rw
+    entrypoint: tail -f /dev/null
+      - C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0:/TokenService.Proxy:ro
+
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/DataMining.App.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "DataMining.App"
+    tty: true
   gvs.games.api:
     container_name: GVS.Games.Api_1
     build:

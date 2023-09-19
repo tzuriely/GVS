@@ -18,3 +18,10 @@ services:
       - ./.containers/db:/var/lib/postgresql/data
     ports:
       - 5432:5432
+
+  datamining.app:
+    image: ${DOCKER_REGISTRY-}dataminingapp
+    build:
+      context: .
+      dockerfile: DataMining/DataMining.App/Dockerfile
+

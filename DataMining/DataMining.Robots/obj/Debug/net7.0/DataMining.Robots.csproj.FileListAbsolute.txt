@@ -1,0 +1,15 @@
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\bin\Debug\net7.0\DataMining.Robots.deps.json
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\bin\Debug\net7.0\DataMining.Robots.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\bin\Debug\net7.0\DataMining.Robots.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\bin\Debug\net7.0\DataMining.Shared.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\bin\Debug\net7.0\DataMining.Shared.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\DataMining.Robots.csproj.AssemblyReference.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\DataMining.Robots.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\DataMining.Robots.AssemblyInfoInputs.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\DataMining.Robots.AssemblyInfo.cs
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\DataMining.Robots.csproj.CoreCompileInputs.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\DataMining.Robots.csproj.CopyComplete
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\DataMining.Robots.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\refint\DataMining.Robots.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\DataMining.Robots.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Robots\obj\Debug\net7.0\ref\DataMining.Robots.dll
