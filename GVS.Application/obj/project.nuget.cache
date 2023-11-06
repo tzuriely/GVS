@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "McEGvReKn4fWi6L56EEf3iP37PqIIdjRGas2ks01xV8gIUvQ17bGL9iunv+gE/AZRh++83+OfL8U0FowZEOWjg==",
+  "dgSpecHash": "TyRc3hz/OalUjCGt7zjbYiepSyEes5MJx5TXF/zSHaZiAkElGopPohpc0JYVvg87bjInVt+vLMpHLJU5mrZeAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\GVS.Application\\GVS.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tyamin\\.nuget\\packages\\efcore.namingconventions\\7.0.2\\efcore.namingconventions.7.0.2.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.10\\microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",

@@ -1,6 +1,7 @@
 using GVS.Application.Queries.GamesByText;
 using GVS.Games.Api.Extensions;
 using GVS.Persistence;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +13,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistence(builder.Configuration);
 
-builder.Services.AddScoped<GamesByTextHandler>();
+builder.Services.AddMediatR(GVS.Application.AssemblyReference.Assembly);
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -24,10 +26,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors(options => options.WithOrigins("http://localhost:3000"));
 
 app.Run();

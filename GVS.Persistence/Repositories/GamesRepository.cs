@@ -19,11 +19,16 @@ namespace GVS.Persistence.Repositories
             _context = context;
         }
 
+        public async Task AddGames(List<Game> games)
+        {
+            await _context.Games.AddRangeAsync(games);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<List<Game>> GetGamesByText(string text)
         {
-            var games = await _context.Games.Where(g => g.League.LeagueName.Contains(text)
-                                      || g.Provider.ProviderName.Contains(text)
-                                      || g.Title.Contains(text)).ToListAsync();
+            var games = await _context.Games
+                .Where(g => g.Title.Contains(text)).ToListAsync();
 
             return games;
         }

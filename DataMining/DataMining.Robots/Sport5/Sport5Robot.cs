@@ -80,7 +80,7 @@ namespace DataMining.Robots.Sport5
             {
                 return new Sport5GameModel()
                 {
-                    League = league,
+                    LeagueId = 1,
                     Language = "Heb",
                     Link = game,
                     Location = league == "champions league" ? "International" : league.Split('-')[0],

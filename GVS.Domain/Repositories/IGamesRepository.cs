@@ -9,5 +9,7 @@ namespace GVS.Domain.Repositories
     public interface IGamesRepository
     {
         Task<List<Game>> GetGamesByText(string text);
+
+        Task AddGames(List<Game> games);
     }
 }

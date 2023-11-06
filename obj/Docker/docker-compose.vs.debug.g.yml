@@ -26,7 +26,6 @@ services:
     tty: true
   gvs.games.api:
     image: gvsgamesapi:dev
-    container_name: GVS.Games.Api_1
     build:
       target: base
       labels:

@@ -60,3 +60,12 @@ C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\Cronos.dll
 C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\DataMining.App.pdb
 C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\DataMining.Robots.pdb
 C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\DataMining.Shared.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\MediatR.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\MediatR.Contracts.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\Microsoft.Extensions.Http.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\DataMining.Infrastructure.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\DataMining.Domain.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\DataMining.Infrastructure.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\bin\Debug\DataMining.Domain.pdb

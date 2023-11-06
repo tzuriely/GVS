@@ -3,6 +3,8 @@ version: '3.4'
 services:
   gvs.games.api:
     image: ${DOCKER_REGISTRY-}gvsgamesapi
+    container_name: gvs.games.api
+
     build:
       context: .
       dockerfile: GVS.Games.Api/Dockerfile

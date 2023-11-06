@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "NyPkhuJzz+DALNgj7UmnjZ1wPdp4tjrayoYbAP0gU8dSU+42zaU18IEm85FGeKXw1VwCbR1JX8YKtms7onRWyw==",
+  "dgSpecHash": "uZ86jwVtCdJkytNvhaoNG0ovUnOGI0ihzoXzXgGSnlniZhJCscwqOBvU7fTJGooUzt7r99rgiWsRw8ZYdaNTXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\GVS.Games.Api\\GVS.Games.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tyamin\\.nuget\\packages\\efcore.namingconventions\\7.0.2\\efcore.namingconventions.7.0.2.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\tyamin\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\tyamin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

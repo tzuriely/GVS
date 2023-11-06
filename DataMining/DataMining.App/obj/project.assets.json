@@ -347,6 +347,28 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -569,6 +591,19 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/7.0.1": {
         "type": "package",
         "compile": {
@@ -652,10 +687,36 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "DataMining.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataMining.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataMining.Domain.dll": {}
+        }
+      },
+      "DataMining.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataMining.Domain": "1.0.0",
+          "Microsoft.Extensions.Http": "7.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/DataMining.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataMining.Infrastructure.dll": {}
+        }
+      },
       "DataMining.Robots/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "DataMining.Infrastructure": "1.0.0",
           "DataMining.Shared": "1.0.0",
           "HtmlAgilityPack": "1.11.53",
           "Microsoft.Extensions.Configuration.Binder": "7.0.4"
@@ -1171,6 +1232,33 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Http/7.0.0": {
+      "sha512": "9Pq9f/CvOSz0t9yQa6g1uWpxa2sm13daLFm8EZwy9MaQUjKXWdNUXQwIxwhmba5N83UIqURiPHSNqGK1vfWF2w==",
+      "type": "package",
+      "path": "microsoft.extensions.http/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Http.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Http.targets",
+        "lib/net462/Microsoft.Extensions.Http.dll",
+        "lib/net462/Microsoft.Extensions.Http.xml",
+        "lib/net6.0/Microsoft.Extensions.Http.dll",
+        "lib/net6.0/Microsoft.Extensions.Http.xml",
+        "lib/net7.0/Microsoft.Extensions.Http.dll",
+        "lib/net7.0/Microsoft.Extensions.Http.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.xml",
+        "microsoft.extensions.http.7.0.0.nupkg.sha512",
+        "microsoft.extensions.http.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Logging/7.0.0": {
       "sha512": "Nw2muoNrOG5U5qa2ZekXwudUn2BJcD41e65zwmDHb1fQegTX66UokLWZkJRpqSSHXDOWZ5V0iqhbxOEky91atA==",
       "type": "package",
@@ -1569,6 +1657,36 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/7.0.1": {
       "sha512": "T9SLFxzDp0SreCffRDXSAS5G+lq6E8qP4knHS2IBjwCdx2KEvGnGZsq7gFpselYOda7l6gXsJMD93TQsFj/URA==",
       "type": "package",
@@ -1731,6 +1849,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "DataMining.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DataMining.Domain/DataMining.Domain.csproj",
+      "msbuildProject": "../DataMining.Domain/DataMining.Domain.csproj"
+    },
+    "DataMining.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DataMining.Infrastructure/DataMining.Infrastructure.csproj",
+      "msbuildProject": "../DataMining.Infrastructure/DataMining.Infrastructure.csproj"
+    },
     "DataMining.Robots/1.0.0": {
       "type": "project",
       "path": "../DataMining.Robots/DataMining.Robots.csproj",
@@ -1744,9 +1872,11 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DataMining.Infrastructure >= 1.0.0",
       "DataMining.Robots >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 7.0.1",
       "Microsoft.Extensions.Hosting.Abstractions >= 7.0.0",
+      "Microsoft.Extensions.Http >= 7.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.18.1"
     ]
   },
@@ -1778,6 +1908,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Infrastructure\\DataMining.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Infrastructure\\DataMining.Infrastructure.csproj"
+            },
             "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\DataMining.Robots.csproj": {
               "projectPath": "C:\\Users\\tyamin\\source\\repos\\GamesVideoSummary\\DataMining\\DataMining.Robots\\DataMining.Robots.csproj"
             }
@@ -1799,6 +1932,10 @@
             "version": "[7.0.1, )"
           },
           "Microsoft.Extensions.Hosting.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.Extensions.Http": {
             "target": "Package",
             "version": "[7.0.0, )"
           },

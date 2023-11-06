@@ -20,7 +20,6 @@ services:
       com.microsoft.visual-studio.project-name: "DataMining.App"
     tty: true
   gvs.games.api:
-    container_name: GVS.Games.Api_1
     build:
       labels:
         com.microsoft.created-by: "visual-studio"

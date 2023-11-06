@@ -25,10 +25,8 @@ namespace GVS.Persistence
                     .UseNpgsql(configuration.GetConnectionString("Database"), a => a.MigrationsAssembly("GVS.Persistence"))
                     .UseSnakeCaseNamingConvention());
 
-
             services.AddScoped<IGamesRepository, GamesRepository>();
-
-
+            services.AddScoped<ILeaguesRepository, LeaguesRepository>();
 
             var serviceProvider = services.BuildServiceProvider();
             var context = serviceProvider.GetRequiredService<ApplicationDbContext>();

@@ -1,0 +1,12 @@
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\DataMining.Domain.csproj.AssemblyReference.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\DataMining.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\DataMining.Domain.AssemblyInfoInputs.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\DataMining.Domain.AssemblyInfo.cs
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\DataMining.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\bin\Debug\net7.0\DataMining.Domain.deps.json
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\bin\Debug\net7.0\DataMining.Domain.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\bin\Debug\net7.0\DataMining.Domain.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\DataMining.Domain.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\refint\DataMining.Domain.dll
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\DataMining.Domain.pdb
+C:\Users\tyamin\source\repos\GamesVideoSummary\DataMining\DataMining.Domain\obj\Debug\net7.0\ref\DataMining.Domain.dll

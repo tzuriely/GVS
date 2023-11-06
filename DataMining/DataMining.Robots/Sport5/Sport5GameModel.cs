@@ -8,7 +8,8 @@ namespace DataMining.Robots.Sport5
 {
     public class Sport5GameModel
     {
-        public string League { get; set; }
+        public int LeagueId { get; set; }
+        public int ProviderId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public string Link { get; set; }

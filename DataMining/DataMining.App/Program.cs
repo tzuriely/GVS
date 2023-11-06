@@ -1,4 +1,6 @@
-﻿using DataMining.Robots.Sport5;
+﻿using DataMining.Infrastructure.Services.GamesService;
+using DataMining.Robots.Sport5;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -12,8 +14,8 @@ namespace DataMining.App
         {
             Console.WriteLine("Hello, World!");
 
-            System.Text.EncodingProvider ppp = System.Text.CodePagesEncodingProvider.Instance;
-            Encoding.RegisterProvider(ppp);
+
+            ConfigEncoding();
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -30,7 +32,21 @@ namespace DataMining.App
                     loggingBuilder.AddConsole();
                 });
 
+                services.AddScoped<IGameService, GameService>();
+
                 services.RegisterSport5Robot(configuration);
+
+                services.AddHttpClient("gamesApi", client =>
+                {
+                    client.BaseAddress = new Uri(configuration.GetValue<string>("GamesApi:BaseUrl"));
+                });
             });
+
+
+        public static void ConfigEncoding()
+        {
+            System.Text.EncodingProvider ppp = System.Text.CodePagesEncodingProvider.Instance;
+            Encoding.RegisterProvider(ppp);
+        }
     }
 }
